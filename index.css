@@ -107,26 +107,25 @@
     justify-content: space-evenly;
     flex-flow: row wrap;
 }
-.services-icon {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 35px 35px 12px 35px;
-}
 .card {
     height: content;
     width: 40vh;
     background-color: transparent;
     border: 0px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 35px 35px 12px 35px;
 }
-.services-icon img{
+.card img{
     height: 40px;
     width: 40px;
 }
 .service-details {
     overflow-wrap: break-word;
     justify-content: center;
+    align-items: center;
 }
 .contact {
     display: flex;

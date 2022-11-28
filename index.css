@@ -1,0 +1,151 @@
+* {
+    background-color: rgb(0, 0, 0);
+}
+.collapse {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.pic {
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pic a img {
+    height: 60px;
+    width: 60px;
+    border: 3px solid rgb(229, 243, 68);
+    border-radius: 100%;
+    
+} 
+.floating-menu {
+    height: 280px;
+    width: 7vh;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: fixed;
+    background-color: transparent;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:inset;
+    margin-top: 100px;
+}
+.floating-menu a  {
+    padding: 15px 10px 15px 10px;
+}
+.carousel-inner {
+    height: 87vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+.carousel {
+    margin-top: -4.5px;
+}
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+}
+.para {
+    overflow-wrap: break-word;
+    justify-content: flex-start;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 50vh;
+}
+@media screen and (max-width: 992px) {
+    .nav a {
+      font-size: 13px;
+      margin: -2px;
+    }
+    .container-fluid {
+        justify-content:center;
+    }
+    .pic {
+        margin-left: -10px;
+    }
+    .carousel-caption {
+        display: none;
+    }
+    .floating-menu {
+        display: none;
+    }
+    .navbar {
+        position: relative;
+    }
+}
+@media screen and (max-width: 604px) {
+    .carousel-inner {
+        flex-flow: column;
+    }
+    .banner img{
+        width: 30vh;
+    }
+    .col-sm h2 {
+        font-size: 18px;
+    }
+    .intro-sub {
+        padding-right: 10px;
+    }
+
+}
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.services-icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px 35px 12px 35px;
+}
+.services-icon img{
+    height: 40px;
+    width: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*background-image: url("contact.jpg");*/
+    height: content;
+    margin-bottom: 10px;
+}
+.form-control {
+    width: 250px;
+}
+.img {
+    height: 100%;
+}
+.about {
+    height: 210px;
+    width: 205px;
+    border: 3px solid white;
+    border-radius: 200%;
+} 
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}   
+.footer {
+    font-size: 12px;
+    font-weight: 500px;
+}

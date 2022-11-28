@@ -118,7 +118,7 @@
 }
 .card {
     height: content;
-    width: 40vh;
+    width: 38vh;
     background-color: transparent;
     border: 0px solid black;
     display:flex;
@@ -126,6 +126,13 @@
     align-items: center;
     flex-flow: column;
     margin: 35px 35px 12px 35px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
 }
 .services-icon img{
     height: 40px;
@@ -172,6 +179,8 @@
     width: 205px;
     border: 3px solid white;
     border-radius: 200%;
+    transition: transform .2s;
+    cursor: pointer;
 }
 .card-phone, .card-email {
     height: 50px;
@@ -187,7 +196,13 @@
     font-size: 12px;
     font-weight: 500;
     padding: 9px;
+    transition: transform .2s;
 } 
+.card-email:hover, .card-phone:hover, .about {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
 .card-phone img, .card-email img{
     height: 33px;
     width: 33px;
@@ -203,4 +218,4 @@
 .footer {
     font-size: 12px;
     font-weight: 500px;
-}
+}  

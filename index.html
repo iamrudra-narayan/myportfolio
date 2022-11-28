@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="index.css">
   <link rel="icon" href="img/pic.jpg" type="img/gif" sizes="16x16">
 
+  <script src="index.js"></script>
+
   <title>Rudra Narayan Muduli Portfolio</title>
 </head>
 
@@ -139,7 +141,7 @@
     </div>
     <hr>
     <div id="contact" class="contact">
-      <form class="d-flex justify-content-center flex-column align-items-center mt-2 px-3">
+      <form class="d-flex justify-content-center flex-column align-items-center mt-2 px-3" id='form' action="mailto:rcoder07@gmail.com" method="post" enctype="text/plain">
         <h2 class="text-danger fw-bolder fs-4 mb-2">Get in touch</h2>
         <p class="text-white fw-1 fs-6 mb-4">I'm pretty glad to help you</p>
         <div class="contact-direct px-4 pb-3">
@@ -147,20 +149,20 @@
           <a class="text-decoration-none" href="tel:+91 9337099781"><div class="card-phone"><img src="img/mobile.png"/>+91 9337099781</div></a>
         </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label text-white">Name</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="name" class="form-label text-white">Name</label>
+          <input type="name" class="form-control" id="exampleInputEmail1" name="name" required>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label text-white">Email</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="email" class="form-label text-white">Email</label>
+          <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label text-white">Subject</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="subject" class="form-label text-white">Subject</label>
+          <input type="subject" class="form-control" name="sub" id="subject" required>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label text-white">Description</label>
-          <textarea class="form-control"></textarea>
+          <label for="msg" class="form-label text-white">Message</label>
+          <textarea class="form-control" name="msg" id="msg" required></textarea>
         </div>
         <button type="submit" class="btn btn-danger fw-bold mb-4">Submit</button>
       </form>

@@ -153,6 +153,7 @@
     /*background-image: url("contact.jpg");*/
     height: content;
     margin-bottom: 10px;
+    padding: 0 10px 0 10px;
 }
 .form-control {
     width: 250px;

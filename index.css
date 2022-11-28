@@ -2,10 +2,10 @@
     background-color: rgb(0, 0, 0);
 }
 .collapse {
-    display: flex;
-    justify-content: center;
     background-color: transparent;
+    justify-content: center;
 }
+
 .pic {
     height: 60px;
     width: 60px;
@@ -33,7 +33,7 @@
     align-items: center;
     flex-direction: column;
     box-shadow:inset;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .floating-menu a  {
     padding: 15px 10px 15px 10px;
@@ -47,7 +47,7 @@
     flex-flow: row;
 }
 .carousel {
-    margin-top: -4.5px;
+    margin-top: -6px;
 }
 .intro {
     display: flex;
@@ -134,7 +134,8 @@
 .service-details {
     overflow-wrap: break-word;
     justify-content: center;
-    align-items: center;
+    align-items: top;
+    font-size: 13px;
 }
 .skil-icons {
     display: flex;
@@ -156,6 +157,12 @@
 .form-control {
     width: 250px;
 }
+.contact-direct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 .img {
     height: 100%;
 }
@@ -164,7 +171,28 @@
     width: 205px;
     border: 3px solid white;
     border-radius: 200%;
+}
+.card-phone, .card-email {
+    height: 50px;
+    width: 50vh;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin: 10px 15px 10px 15px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 9px;
 } 
+.card-phone img, .card-email img{
+    height: 33px;
+    width: 33px;
+    margin-right: 10px;
+    margin-left: 20px;
+}    
 .social {
     display: flex;
     justify-content: center;

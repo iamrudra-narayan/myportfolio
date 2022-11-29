@@ -5,6 +5,14 @@
     background-color: transparent;
     justify-content: center;
 }
+.navbar-nav ul {
+    flex: 1;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 .pic {
     height: 60px;
     width: 60px;
@@ -89,6 +97,14 @@
         display: flex;
         justify-content: center;
         background-color: transparent;
+    }
+    .navbar-nav ul {
+        flex: 1;
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 604px) {

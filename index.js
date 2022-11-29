@@ -21,3 +21,4 @@ form.addEventListener('submit', (e) => { // added submit event listener on form
   window.location.href = uri
   // redirected to the uri
 })
+

@@ -29,7 +29,7 @@
 } 
 .floating-menu {
     height: 280px;
-    width: 7vh;
+    width: 7.5vh;
     border: 2px solid white;
     border-radius: 25px;
     position: fixed;
@@ -43,7 +43,13 @@
     margin-top: 50px;
 }
 .floating-menu a  {
-    padding: 15px 10px 15px 10px;
+    padding: 17px 9px 17px 9px;
+    transition: transform .3s;
+}
+.floating-menu a img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
 }
 .carousel-inner {
     height: 87vh;

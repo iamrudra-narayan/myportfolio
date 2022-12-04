@@ -13,6 +13,9 @@
     align-items: center;
     flex-direction: row;
 }
+.navbar-nav ul a:hover {
+    color: rgb(217, 255, 0);
+}
 .pic {
     height: 60px;
     width: 60px;
